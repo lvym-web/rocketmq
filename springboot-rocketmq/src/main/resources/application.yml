@@ -1,0 +1,8 @@
+rocketmq:
+  name-server: 192.168.146.200:9876
+  producer:
+    group: group
+    retry-times-when-send-failed: 2
+    retry-next-server: true
+    enable-msg-trace: true
+    customized-trace-topic:
